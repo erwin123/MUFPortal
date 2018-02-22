@@ -1,0 +1,20 @@
+export class Userprofile {
+    ID:number;
+    RowStatus:number;
+    FirstName:string;
+    LastName:string;
+    Email:string;
+    PhoneNumber1:string;
+    PhoneNumber2:string;
+    PhoneImei:string;
+    Address1:string;
+    Address2:string;
+    Genre:number;
+    BirthDate:Date;
+    CreatedTime:Date;
+    CreatedBy:string;
+    ModifyTime:Date;
+    ModifyBy:string;
+    TimeStatus:string;
+    UserMasterID:number;
+}

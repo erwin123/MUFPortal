@@ -1,0 +1,97 @@
+.login-container{
+    width: 100%;
+}
+
+.login-banner-mandiri{
+    padding-top:50px;
+    background: linear-gradient(to right,  #024c8d,#003665, #003665);
+    text-align: right;
+    padding-right: 50px;
+}
+
+.login-banner-utama-mandiri img{
+    width: 180px;
+    height: 26px;
+}
+
+.login-banner-utama-finance{
+    text-align: right;
+    padding-right: 20px;
+}
+
+.login-banner-utama-finance img{
+    width: 250px;
+    height: 44px;
+}
+
+.login-appname{
+    margin: 40px auto;
+    max-width: 380px;
+    text-align: center;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #003665;
+    text-shadow: 1px 1px 2px #464646;
+}
+
+.login-appname-m{
+    color: #003665;
+}
+
+.login-appname-uf{
+    color: #910500;
+}
+
+.login-form{
+    margin: 20px auto;
+    max-width: 380px;
+    padding: 0 10px 0 10px;
+}
+
+.login-form-input{
+    display: block;
+}
+
+.login-form button{
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 0%;
+    font-size: 15px;
+}
+
+.vertical-align-middle { 
+    vertical-align: middle; 
+    color:rgb(158, 158, 158);
+}
+
+.padding-bottom-3 {
+    padding-bottom: 3px;
+    padding-right: 5px;
+}
+
+.other-control{
+    width: 100%;
+    margin: 5px auto;
+}
+
+.other-control a{
+    width: 100%;
+}
+
+.login-message{
+    width: 100%;
+    margin: 0 auto;
+    color: #bd0a03;
+    text-align: center;
+}
+
+.login-footer{
+    text-align: center;
+    font-size: 12px;
+    bottom:0;
+    left:0;
+    position:fixed;
+    top:auto;
+    width:100%;
+}

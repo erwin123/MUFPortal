@@ -1,0 +1,22 @@
+.right-spacer {
+    flex: 1 1 auto;
+ }
+
+ .home-container, .home-toolbar{
+    background: linear-gradient(to right,  #ffffff,#ffffff, #e4e4e4);
+ }
+
+ .home-toolbar{
+     border-bottom: 1px solid rgb(211, 211, 211);
+     opacity: 0.9;
+     position: fixed; width: 100%; top:0;
+ }
+.home-logo img{
+    margin-top:8px !important;
+}
+.drawer-component
+{
+    margin:50px auto;
+    width: 90%;
+    clear: both;
+}

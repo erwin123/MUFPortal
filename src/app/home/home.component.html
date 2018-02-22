@@ -1,0 +1,31 @@
+<div class="home-container">
+  <mat-toolbar class="home-toolbar">
+      <div class="home-logo">
+          <img src="assets/mandiriutama finance.jpg" alt=""/>
+      </div>
+      <span class="right-spacer"></span>
+      <button mat-icon-button [matMenuTriggerFor]="menu">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+          <i class="fa fa-cog" aria-hidden="true"></i>
+          <span>Settings</span>
+        </button>
+        <button mat-menu-item>
+          <i class="fa fa-qrcode" aria-hidden="true"></i>
+          <span>My Apps</span>
+        </button>
+        <button mat-menu-item (click)="logout()">
+          <i class="fa fa-sign-out" aria-hidden="true"></i>
+          <span>Log out</span>
+        </button>
+      </mat-menu>
+  </mat-toolbar>
+  <div class="home-content">
+    <div class="drawer-title"></div>
+    <div class="drawer-component">
+      <app-drawerapps></app-drawerapps>
+    </div>
+  </div>
+</div>
